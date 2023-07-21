@@ -23,7 +23,8 @@ const Login = () => {
 
       <button type='btn' className='btn btn-primary submit'>Login</button>
       </form>
-      <hr />
+      <p className='or'>or</p>
+
 
 
        <button className='social'> <FaGoogle /><p>  Continue With Google</p></button>
@@ -34,7 +35,6 @@ const Login = () => {
         <p>New to Coursera ? <a href="/register">Sign up</a></p>
       </div>
       <hr />
-
       <div className='organization'>
         <a href="#">Login with your orgnization</a>
       </div>

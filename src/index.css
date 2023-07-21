@@ -426,6 +426,31 @@ padding: 30px;
     display: none;
   }
 }
+.fluid-container .inner-contain .or{
+  text-align: center;
+  font-size: 10px;
+  max-width: 500px;
+  position: relative;
+}
+.fluid-container .inner-contain .or::before{
+content: "-";
+display: block;
+position: absolute;
+height: 5px;
+width: 120px;
+left: 0;
+top: 50%;
+}
+.fluid-container .inner-contain .or::after{
+content: "-";
+display: block;
+position: absolute;
+height: 5px;
+width: 120px;
+right: 0;
+top: 50%;
+
+}
 
 /* ---------------end of login page-------------- */
 .regheader{
